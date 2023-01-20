@@ -1,5 +1,5 @@
 // Instructions
-// Run this file by typing `node 01-Calendar.js` in the terminal
+// Run this file by typing `node snippets/01-Calendar.js` in the terminal
 // Please write your code after each comment
 
 // 10 coding challenges for beginners
