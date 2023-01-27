@@ -13,6 +13,8 @@ const currentMonth = currentDate.getMonth() + 1
 console.log("🚀 ~ Current Month", currentMonth)
 
 // Challenge 3: Print the first letter of the current day
+const firstLetter = currentDate.toDateString().charAt(0)
+console.log("🚀 ~ First Letter Of the Day", firstLetter)
 
 // Challenge 4: Print the number of days in the current month
 
