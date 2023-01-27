@@ -9,6 +9,8 @@ const currentDate = new Date();
 console.log("🚀 ~ currentDate", currentDate);
 
 // Challenge 2: Print the current month
+const currentMonth = currentDate.getMonth() + 1
+console.log("🚀 ~ Current Month", currentMonth)
 
 // Challenge 3: Print the first letter of the current day
 
