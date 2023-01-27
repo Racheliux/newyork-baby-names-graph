@@ -6,17 +6,19 @@
 
 // Challenge 1: Print current date and time
 const currentDate = new Date();
-console.log("🚀 ~ Current Date", currentDate);
+    console.log("🚀 ~ Current Date", currentDate);
 
 // Challenge 2: Print the current month
 const currentMonth = currentDate.getMonth() + 1
-console.log("💩 ~ Current Month", currentMonth)
+    console.log("💩 ~ Current Month", currentMonth)
 
 // Challenge 3: Print the first letter of the current day
 const firstLetter = currentDate.toDateString().charAt(0)
-console.log("🤪 ~ First Letter Of the Day", firstLetter)
+    console.log("🤪 ~ First Letter Of the Day", firstLetter)
 
 // Challenge 4: Print the number of days in the current month
+const daysInCurrentMonth = currentDate.getDays(month, year, 0)
+console.log("🚀 ~ file: 01-Calendar.js:21 ~ daysInCurrentMonth", daysInCurrentMonth)
 
 // Challenge 5: Print the number of days left in the current month
 
