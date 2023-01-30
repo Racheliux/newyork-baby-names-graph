@@ -17,8 +17,12 @@ const firstLetter = currentDate.toDateString().charAt(0)
     console.log("🤪 ~ First Letter Of the Day", firstLetter)
 
 // Challenge 4: Print the number of days in the current month
-const daysInCurrentMonth = currentDate.getDays(month, year, 0)
-console.log("🚀 ~ file: 01-Calendar.js:21 ~ daysInCurrentMonth", daysInCurrentMonth)
+const getDays = (year, month) => {
+    return new Date(currentDate.getFullYear, currentDate.getMonth + 1, 0).getDate();
+};
+const daysInTheMonth = getDays(currentDate.getFullYear(), currentDate.getMonth() );
+console.log("🚀 ~ file: 01-Calendar.js:24 ~ daysInTheMonth", daysInTheMonth)
+
 
 // Challenge 5: Print the number of days left in the current month
 
